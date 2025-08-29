@@ -1,0 +1,23 @@
+# Python 虚拟环境
+backend/venv/
+
+# 数据库文件
+backend/__pycache__/
+database/*.db
+
+# 缓存和临时文件
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# VS Code 配置
+.vscode/
+
+# 日志文件
+*.log
+
+# 环境变量文件
+.env
