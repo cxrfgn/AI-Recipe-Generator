@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI个性化食谱生成器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>AI个性化食谱生成器</h1>
+        <form id="preference-form">
+            <label for="forbidden">忌口食材：</label>
+            <input type="text" id="forbidden" name="forbidden" placeholder="例如：牛奶、花生">
+
+            <label for="taste">口味偏好：</label>
+            <select id="taste" name="taste">
+                <option value="无要求">无要求</option>
+                <option value="甜">甜</option>
+                <option value="咸">咸</option>
+                <option value="辣">辣</option>
+                <option value="酸">酸</option>
+            </select>
+
+            <fieldset>
+                <legend>健康目标：</legend>
+                <label><input type="radio" name="goal" value="减脂" checked>减脂</label>
+                <label><input type="radio" name="goal" value="增肌">增肌</label>
+                <label><input type="radio" name="goal" value="均衡">均衡</label>
+            </fieldset>
+
+            <button type="submit">生成我的食谱</button>
+        </form>
+        <div id="recipe-results"></div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+    margin: 0;
+    padding: 0;
+}
+main {
+    max-width: 480px;
+    margin: 48px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(44, 62, 80, 0.12);
+    padding: 40px 32px;
+}
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 32px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+form label, form legend {
+    display: block;
+    margin: 20px 0 10px 0;
+    color: #34495e;
+    font-weight: 500;
+    font-size: 1rem;
+}
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bfc9d4;
+    border-radius: 6px;
+    margin-bottom: 18px;
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 3px rgba(44,62,80,0.06);
+    background: #f8fafc;
+    font-size: 1rem;
+    transition: border 0.2s;
+}
+input[type="text"]:focus, select:focus {
+    border-color: #7f8c8d;
+    outline: none;
+}
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+fieldset label {
+    margin-right: 24px;
+    font-size: 1rem;
+}
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #27ae60 0%, #2193b0 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 28px;
+    box-shadow: 0 2px 8px rgba(39,174,96,0.08);
+    transition: background 0.2s;
+}
+button[type="submit"]:hover {
+    background: linear-gradient(90deg, #219150 0%, #1769aa 100%);
+}
+#recipe-results {
+    margin-top: 40px;
+    min-height: 80px;
+    background: #f0f4f8;
+    border-radius: 6px;
+    padding: 20px;
+    color: #333;
+    box-shadow: 0 1px 4px rgba(44,62,80,0.06);
+    font-size: 1rem;
+}
